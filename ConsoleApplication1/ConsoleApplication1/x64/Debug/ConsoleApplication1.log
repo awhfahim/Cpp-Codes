@@ -1,0 +1,4 @@
+﻿  ConsoleApplication1.cpp
+D:\C-Codes\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(51,27): warning C4244: '+=': conversion from '__int64' to 'int', possible loss of data
+D:\C-Codes\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(55,27): warning C4244: '+=': conversion from '__int64' to 'int', possible loss of data
+  ConsoleApplication1.vcxproj -> D:\C-Codes\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
