@@ -1,0 +1,4 @@
+﻿  ConsoleApplication5.cpp
+D:\C-Codes\ConsoleApplication5\ConsoleApplication5\ConsoleApplication5.cpp(17,30): warning C4553: '==': result of expression not used; did you intend '='?
+D:\C-Codes\ConsoleApplication5\ConsoleApplication5\ConsoleApplication5.cpp(34,15): warning C4101: 'n': unreferenced local variable
+  ConsoleApplication5.vcxproj -> D:\C-Codes\ConsoleApplication5\x64\Debug\ConsoleApplication5.exe

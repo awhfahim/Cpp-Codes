@@ -1,0 +1,8 @@
+﻿  ConsoleApplication8.cpp
+D:\C-Codes\ConsoleApplication8\ConsoleApplication8\ConsoleApplication8.cpp(14,17): error C2131: expression did not evaluate to a constant
+D:\C-Codes\ConsoleApplication8\ConsoleApplication8\ConsoleApplication8.cpp(14,17): message : failure was caused by a read of a variable outside its lifetime
+D:\C-Codes\ConsoleApplication8\ConsoleApplication8\ConsoleApplication8.cpp(14,17): message : see usage of 'A_card'
+D:\C-Codes\ConsoleApplication8\ConsoleApplication8\ConsoleApplication8.cpp(20,20): error C3863: array type 'int [A_card]' is not assignable
+D:\C-Codes\ConsoleApplication8\ConsoleApplication8\ConsoleApplication8.cpp(22,9): error C3531: 'it': a symbol whose type contains 'auto' must have an initializer
+D:\C-Codes\ConsoleApplication8\ConsoleApplication8\ConsoleApplication8.cpp(22,22): error C2143: syntax error: missing ';' before ':'
+D:\C-Codes\ConsoleApplication8\ConsoleApplication8\ConsoleApplication8.cpp(22,27): error C2143: syntax error: missing ';' before ')'

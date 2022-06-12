@@ -1,0 +1,5 @@
+﻿  ConsoleApplication3.cpp
+D:\C-Codes\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.cpp(11,30): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\C-Codes\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.cpp(79,28): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+D:\C-Codes\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.cpp(74): error C4700: uninitialized local variable 'LeftPointer' used
+D:\C-Codes\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.cpp(74): error C4700: uninitialized local variable 'RightPointer' used

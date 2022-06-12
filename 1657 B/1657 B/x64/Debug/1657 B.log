@@ -1,0 +1,10 @@
+﻿  1657 B.cpp
+D:\C-Codes\1657 B\1657 B\1657 B.cpp(20,23): error C2131: expression did not evaluate to a constant
+D:\C-Codes\1657 B\1657 B\1657 B.cpp(20,23): message : failure was caused by a read of a variable outside its lifetime
+D:\C-Codes\1657 B\1657 B\1657 B.cpp(20,23): message : see usage of 'n'
+D:\C-Codes\1657 B\1657 B\1657 B.cpp(21,12): error C3863: array type '__int64 [n]' is not assignable
+D:\C-Codes\1657 B\1657 B\1657 B.cpp(31,21): warning C4552: '>>': result of expression not used
+D:\C-Codes\1657 B\1657 B\1657 B.cpp(34,21): warning C4552: '>>': result of expression not used
+D:\C-Codes\1657 B\1657 B\1657 B.cpp(40,5): error C3531: 'it': a symbol whose type contains 'auto' must have an initializer
+D:\C-Codes\1657 B\1657 B\1657 B.cpp(40,18): error C2143: syntax error: missing ';' before ':'
+D:\C-Codes\1657 B\1657 B\1657 B.cpp(40,23): error C2143: syntax error: missing ';' before ')'

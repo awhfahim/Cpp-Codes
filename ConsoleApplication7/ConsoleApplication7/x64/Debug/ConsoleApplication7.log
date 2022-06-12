@@ -1,0 +1,3 @@
+﻿  ConsoleApplication7.cpp
+D:\C-Codes\ConsoleApplication7\ConsoleApplication7\ConsoleApplication7.cpp(91,5): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\C-Codes\ConsoleApplication7\ConsoleApplication7\ConsoleApplication7.cpp(95,9): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.

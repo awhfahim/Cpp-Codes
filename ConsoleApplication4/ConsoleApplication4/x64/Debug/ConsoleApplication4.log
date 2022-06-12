@@ -1,0 +1,2 @@
+﻿  ConsoleApplication4.cpp
+D:\C-Codes\ConsoleApplication4\ConsoleApplication4\ConsoleApplication4.cpp(57): error C4700: uninitialized local variable 'primeCheck' used
