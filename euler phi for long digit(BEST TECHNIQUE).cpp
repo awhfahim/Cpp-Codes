@@ -2,7 +2,7 @@
 using namespace std;
 #define ll long long
 
-bool isPrime(ll n)
+bool isPrime(ll n) ///NO Need of this Primality Check it creates overhead complexities
 {
     if(n < 2) return false;
     for(ll i = 2; i*i<=n; i++)
@@ -14,7 +14,7 @@ bool isPrime(ll n)
 
 ll euler_phi(ll n)
 {
-    if(isPrime(n) == true) return n - 1;
+    //if(isPrime(n) == true) return n - 1;
     ll res = n;
     for(ll i = 2; i*i <= n; i++)
     {
@@ -36,8 +36,8 @@ ll euler_phi(ll n)
 int main()
 {
     ll n;
-    cin >> n;
-    cout << euler_phi(n);
+    //cin >> n;
+    cout << euler_phi(1000000000000000000);
 
     return 0;
 }
