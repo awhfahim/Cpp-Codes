@@ -15,8 +15,9 @@ void bubble_sort(int *arr, int n)
 
 int main()
 {
-    int arr[] = {3,2,5,7,33,22};
-    bubble_sort(arr,6);
+    int arr[] = {3,2,5,7,33,22,1};
+    int sz = sizeof(arr) / sizeof(arr[0]);
+    bubble_sort(arr,sz);
     for(auto it : arr)
     {
         cout << it << "\n";
