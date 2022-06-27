@@ -16,15 +16,20 @@ void search(char* pat, char* txt)
 				break;
 
 		if (j == M) // if pat[0...M-1] = txt[i, i+1, ...i+M-1]
-			cout << "Pattern found at index "
-				<< i << endl;
+			heavy.push_back(i);
 	}
 }
 
+
 int main()
 {
-	char txt[] = "aabaaa";
-	char pat[] = "aa";
+    char txt[] = "lkjsdhfihedkjedh";
+	char pat[] = "heavy";
+	char pat1[] = "metal";
 	search(pat, txt);
+	heavy.push_back(-1);
+	search(pat1, txt);
+
+
 	return 0;
 }

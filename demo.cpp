@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define ll long long
+
+
+int main()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+
+    vector<pair<int, int> >v1 = {{2,3},{3,4},{5,6}};
+    cout << v1.back().second;
+    return 0;
+}
+
