@@ -1,6 +1,19 @@
 #include <bits/stdc++.h>
 using namespace std;
+#define ll long long
 
+long long divcnt(ll n)
+{
+    int s = 0;
+    if(n % 3 == 0)
+    {
+        s = n / 3;
+    }
+    else{
+        s = (n / 3) + 1;
+    }
+    return n - s;
+}
 int main()
 {
     int T_case;
@@ -8,49 +21,14 @@ int main()
 
     for(int i = 1; i <= T_case; i++)
     {
-        int A,B;
+        ll A, B;
         cin >> A >> B;
 
-        vector <int> vec;
-        vec.push_back(A);
-        int C = A;
+        ll sum1 = divcnt(A - 1);
+        ll sum2 = divcnt(B);
+        ll result = sum2 - sum1;
 
-        while(A!=1)
-        {
-            int A1;
-            A1 = A - 1;
-            vec.push_back(A1);
-            A = A1;
-        }
-        sort(vec.begin(), vec.end());
-
-        int sum = 0;
-        int total = 0;
-        int result = 0;
-        for(auto i : vec)
-        {
-            sum = sum + i;
-        }
-        if(sum%3==0)
-        {
-            result++;
-        }
-
-        while(C!=B)
-        {
-            C++;
-            vec.push_back(C);
-            for(auto i : vec)
-            {
-                total = total + i;
-            }
-            if(total % 3 == 0)
-            {
-                result++;
-            }
-            total = 0;
-        }
-        cout <<"Case "<< i <<": "<< result <<endl;
+        printf("Case %d: %lld\n", i, result);
     }
     return 0;
 }

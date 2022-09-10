@@ -1,29 +1,17 @@
 #include <bits/stdc++.h>
 using namespace std;
+#define ll long long
 
 
 int main()
 {
-    string a,b;
-    cin >> a >> b;
-	char txt[a.size()] = a;
+    ios_base :: sync_with_stdio(false);
+    cin.tie(0);
 
-	int M = strlen(pat);
-	int N = strlen(txt);
+    int a = 5;
+    int b = 1;
+    int c = a & b;
+    cout << c;
 
-	/* A loop to slide pat[] one by one */
-	for (int i = 0; i <= N - M; i++) {
-		int j;
-
-		/* For current index i, check for pattern match */
-		for (j = 0; j < M; j++)
-			if (txt[i + j] != pat[j])
-				break;
-
-		if (j == M) // if pat[0...M-1] = txt[i, i+1, ...i+M-1]
-			cout << "Pattern found at index "
-				<< i << endl;
-	}
-	return 0;
+    return 0;
 }
-

@@ -1,39 +1,19 @@
 #include <bits/stdc++.h>
+
 using namespace std;
 
 int main()
 {
+    string txt,pat;
+    cin >> txt >> pat;
 
-    string input_T,input_P;
-    cin >> input_T >> input_P;
-    int T_Len = input_T.size();
-    int P_Len = input_P.size();
-
-    for(int i = 0; i<T_Len - P_Len+1; i++)
+    int found = txt.find(pat);
+    while(found != string::npos)
     {
-        int coutn = 0;
-        int w = i;
-        for(int j = 0; j<P_Len; j++)
-        {
-            if(input_T[w] != input_P[j])
-            {
-                break;
-            }
-            else ///if(input_T[w] == input_P[j])
-            {
-                coutn++;
-                w++;
-            }
-        }
-        if(coutn == P_Len)
-        {
-            cout << i << endl;
-        }
-        if(w>(T_Len-1))
-        {
-            break;
-        }
-
+        cout << found << endl;
+        found = txt.find(pat, found + 1);
     }
+
     return 0;
 }
+

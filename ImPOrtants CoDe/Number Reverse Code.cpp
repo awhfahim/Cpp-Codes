@@ -21,7 +21,7 @@ int main()
 {
     vector <int> palin;
     palin.push_back(0);
-    for(int i = 1; i <= 40000; i++)
+    for(int i = 1000; i <= 1e4; i++)
     {
         if(isPalindrome(i))
         {
